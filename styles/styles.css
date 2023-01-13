@@ -1,0 +1,430 @@
+@charset "UTF-8";
+/* NORMALIZE SNIPPET - normalize block of code. will tell, between browsers,
+what style applies to each sections. makes it the samee for different browsers*/
+html {
+  line-height: 1.15;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+article,
+aside,
+footer,
+header,
+nav,
+section {
+  display: block;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+figcaption,
+figure,
+main {
+  display: block;
+}
+
+figure {
+  margin: 1em 40px;
+}
+
+hr {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+
+pre {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+a {
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+
+abbr[title] {
+  border-bottom: none;
+  text-decoration: underline;
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+}
+
+b,
+strong {
+  font-weight: inherit;
+}
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+dfn {
+  font-style: italic;
+}
+
+mark {
+  background-color: #ff0;
+  color: #000;
+}
+
+small {
+  font-size: 80%;
+}
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+audio,
+video {
+  display: inline-block;
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+img {
+  border-style: none;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: sans-serif;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+
+button,
+input {
+  overflow: visible;
+}
+
+button,
+select {
+  text-transform: none;
+}
+
+button,
+html [type=button],
+[type=reset],
+[type=submit] {
+  -webkit-appearance: button;
+}
+
+button::-moz-focus-inner,
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+button:-moz-focusring,
+[type=button]:-moz-focusring,
+[type=reset]:-moz-focusring,
+[type=submit]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+legend {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: inherit;
+  display: table;
+  max-width: 100%;
+  padding: 0;
+  white-space: normal;
+}
+
+progress {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+textarea {
+  overflow: auto;
+}
+
+[type=checkbox],
+[type=radio] {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+}
+
+[type=number]::-webkit-inner-spin-button,
+[type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+[type=search] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px;
+}
+
+[type=search]::-webkit-search-cancel-button,
+[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}
+
+details,
+menu {
+  display: block;
+}
+
+summary {
+  display: list-item;
+}
+
+canvas {
+  display: inline-block;
+}
+
+template {
+  display: none;
+}
+
+[hidden] {
+  display: none;
+}
+
+/* by default, when we have an element, the width we give toa  box (i.e.) is added by the border width, making the  element grow (same if we add padding). the below will add them to the inside of my element and shrink the content inside of it, so we are in control of the width and height of our element*/
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* every  element on this page inherits the borderbox from our html = it´s only gonna grow if we say so*/
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+/* collection of css properties that both to make visible and invisiblehidden content readable, as well as contentto assistive technology */
+.sr-only,
+.sr-only:not(:focus):not(:active) {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* ---> TYPOGRAPHY STYLES*/
+html {
+  font-size: 125%;
+}
+
+body {
+  font-family: "Tulpen One", cursive;
+  color: #fff;
+  font-size: 1rem;
+}
+
+h1 {
+  font-family: "Tulpen One", cursive;
+  color: #FF8327;
+  font-size: 261.4px;
+  text-align: center;
+  letter-spacing: 2.4px;
+}
+
+h2,
+h3,
+h4,
+p,
+a,
+nav {
+  font-family: "Chathura", sans-serif;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+h2 {
+  font-size: 83.2px;
+  line-height: 94.7px;
+  letter-spacing: 2.6px;
+  text-align: center;
+}
+
+h3,
+h4 {
+  font-size: 68px;
+  line-height: 58px;
+  letter-spacing: 2.2px;
+}
+
+h4 {
+  text-align: center;
+}
+
+p {
+  font-size: 39px;
+  font-weight: normal;
+  line-height: 30px;
+  letter-spacing: 1.9px;
+}
+
+a,
+nav {
+  font-size: 38px;
+  text-align: center;
+  line-height: 29px;
+  letter-spacing: 1.9px;
+}
+
+button {
+  font-family: "Chathura", sans-serif;
+  color: #FFFFFF;
+}
+
+/* ===>END OF TYPOGRAPHY STYLES */
+/* ---> BASE STYLES */
+.wrapper {
+  max-width: 1260px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+button {
+  font-family: "Tulpen One", cursive;
+  font-size: 39px;
+  background-color: #BF2603;
+  border-color: #BF2603;
+  letter-spacing: 1.9px;
+  color: #FFFFFF;
+}
+
+/* ---> HEADER STYLES */
+/* fonts
+tulpenone regular:
+font-family: 'Tulpen One',
+cursive;
+
+chatura regular and bold:
+font-family: 'Chathura',
+sans-serif;*/
+header {
+  background-image: url(../../../assets/home-image-1.jpg);
+  background-size: cover;
+  /* height: 100vh; */
+  color: #fff;
+}
+
+/* HEADER - NAV STYLES */
+header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header ul li a {
+  line-height: 29px;
+  letter-spacing: 1.9px;
+}
+
+.logoAnchor {
+  font-family: "Tulpen One", cursive;
+  font-weight: bold;
+  line-height: 58px;
+  letter-spacing: 2.2px;
+}
+
+.knowMore {
+  background-color: grey;
+  color: #fff;
+}
+
+.flexKnowMore {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.locations {
+  background-color: rgb(62, 2, 2);
+  color: #fff;
+}
+
+.hostAparty {
+  background-color: grey;
+  color: #fff;
+}
+
+.glassOfbeer {
+  background-color: url(../../../assets/banner-image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}

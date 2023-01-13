@@ -1,0 +1,39 @@
+/* ---> HEADER STYLES */
+
+/* fonts
+tulpenone regular:
+font-family: 'Tulpen One',
+cursive;
+
+chatura regular and bold:
+font-family: 'Chathura',
+sans-serif;*/
+
+header {
+    background-image: url(../../../assets/home-image-1.jpg);
+    background-size: cover;
+    /* height: 100vh; */
+    color: #fff;
+}
+
+/* HEADER - NAV STYLES */
+header ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+header ul li a {
+    line-height: 29px;
+    letter-spacing: 1.9px;
+}
+
+.logoAnchor {
+    font-family: 'Tulpen One',
+        cursive;
+    font-weight: bold;
+    line-height: 58px;
+    letter-spacing: 2.2px;
+}

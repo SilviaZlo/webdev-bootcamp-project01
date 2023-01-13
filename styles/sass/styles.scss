@@ -1,0 +1,25 @@
+// COLOURS::after
+// (off white): #FFFFF;
+// (rest red): #BF2603;
+// (dusty orange): #FF8327;
+// (black): #111010
+// (dark red): #220303
+
+
+// HEADINGS:
+// h1: 261.4px;
+// h2: 83.2px;
+// h3: 68px;
+// h4: 68px;
+// p: 39px;
+// a, nav: 38px;
+
+@import "./partials/setup";
+@import "./partials/variables";
+@import "./partials/typography";
+@import "./partials/baseStyles";
+@import "./partials/header";
+@import "./partials/sectionKnowMore";
+@import "./partials/sectionPlanAhead";
+@import "./partials/sectionHostAparty";
+@import "./partials/sectionImageOfBeer";
