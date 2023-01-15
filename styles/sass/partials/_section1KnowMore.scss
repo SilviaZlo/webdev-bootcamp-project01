@@ -4,6 +4,13 @@
 }
 
 .flexKnowMore {
-    display: flex;
+    display: flex; // still not flexing.
     flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+
+div.flexKnowMore {
+    // display: block;
+    width: 40%;
 }

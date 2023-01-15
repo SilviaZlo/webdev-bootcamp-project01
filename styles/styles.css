@@ -367,10 +367,8 @@ chatura regular and bold:
 font-family: 'Chathura',
 sans-serif;*/
 header {
-  background-image: url(../../../assets/home-image-1.jpg);
+  background-image: url(../assets/home-image-1.jpg);
   background-size: cover;
-  /* height: 100vh; */
-  color: #fff;
 }
 
 /* HEADER - NAV STYLES */
@@ -400,6 +398,11 @@ header ul li a {
   letter-spacing: 2.2px;
 }
 
+/* FOOTER STYLES */
+footer {
+  background-color: rgb(62, 2, 2);
+}
+
 .knowMore {
   background-color: grey;
   color: #fff;
@@ -411,6 +414,13 @@ header ul li a {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+div.flexKnowMore {
+  display: block;
+  width: 40%;
 }
 
 .locations {
@@ -427,4 +437,10 @@ header ul li a {
   background-color: url(../../../assets/banner-image.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+/* SECTION 5 STYLES - EVENTS */
+.events {
+  background-color: grey;
+  color: #fff;
 }
