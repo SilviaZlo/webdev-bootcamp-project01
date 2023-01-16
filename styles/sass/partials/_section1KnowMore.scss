@@ -1,16 +1,43 @@
 .knowMore {
-    background-color: grey;
+    background-color: rgb(53, 51, 51);
     color: #fff;
+    padding-top: 100px;
+    padding-bottom: 50px;
 }
 
 .flexKnowMore {
-    display: flex; // still not flexing.
-    flex-wrap: wrap;
-    margin: 0;
-    padding: 0;
+    display: flex;
+    flex-wrap: wrap;   
 }
 
-div.flexKnowMore {
-    // display: block;
-    width: 40%;
+.flexKnowMoreContainer {
+    width: 50%;
+
+    div {
+            width: 550px;
+            // padding-left: 45px;
+            margin-left: 40px;
+        }
+        ::before {
+            content: '';
+            width: 10px;
+            height: 10px;
+            background-color: peru;
+        } // não está funcionando, buscar o pq, se falta de espaço
+    
+    h3 {
+        margin-bottom: 0;
+    }
+    
+    p {
+        margin-top: 10px;
+    }
 }
+
+
+// .newSpace,
+// .community,
+// .blog,
+// .getInTouch {
+//     width: 50%;
+// }
