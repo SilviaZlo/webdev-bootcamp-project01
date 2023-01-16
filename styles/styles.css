@@ -370,7 +370,7 @@ header {
   background-image: url(../assets/home-image-1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 700px;
+  height: 100vh;
 }
 
 header nav {
@@ -411,12 +411,12 @@ header ul li a {
 }
 
 header h1 {
-  margin: 190px 0 -80px 0;
+  margin: 100px 0 -70px 0;
 }
 
 header h2 {
   margin: 0;
-  padding-left: 8px;
+  padding-left: 2%;
 }
 
 .bigTitleDiv {
@@ -430,7 +430,21 @@ header h2 {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-  padding-left: 32%;
+  z-index: 10;
+}
+
+.centralHeaderDiv {
+  display: block;
+  width: 39%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+header img {
+  width: 50%;
+  position: absolute;
+  margin-left: 45%;
+  margin-top: -300px;
 }
 
 /* FOOTER STYLES */
