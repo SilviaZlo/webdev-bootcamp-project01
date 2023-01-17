@@ -1,4 +1,59 @@
 .locations {
     background-color: rgb(62, 2, 2);
-    color: #fff;
+        color: #fff;
+        
 }
+
+.locationsFlexContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+
+    .locationsContainer {
+        max-width: 45%;
+        padding-bottom: 70px;
+        position: relative;
+
+        h3 {
+            margin-bottom: 0px;
+        }
+
+        p {
+            margin: 10px 0 40px 0;
+        }
+
+        .newLocations {
+
+            h3 {
+            text-align: right;
+            margin-top: 15px;
+            }
+
+            button {
+                margin: 0 1px 0 auto;
+                display: block;
+                text-align: end;
+            }
+
+
+        .locationsContainerImageOne {
+            // width: 90%;
+            border-color: #FF8327; //sem efeito
+            border-width: 20px; //sem efeito
+            position: absolute;
+            margin-top: -40px;
+            
+        }
+
+        .locationsContainerImageTwo {
+            // width: 90%;
+            border-color: #FF8327; //sem efeito
+            // border-width: 20px; //sem efeito 
+            position: absolute;
+            // margin-top: 100px;
+
+        }
+    }
+}
+
