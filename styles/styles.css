@@ -1,6 +1,3 @@
-@charset "UTF-8";
-/* NORMALIZE SNIPPET - normalize block of code. will tell, between browsers,
-what style applies to each sections. makes it the samee for different browsers*/
 html {
   line-height: 1.15;
   -ms-text-size-adjust: 100%;
@@ -237,13 +234,11 @@ template {
   display: none;
 }
 
-/* by default, when we have an element, the width we give toa  box (i.e.) is added by the border width, making the  element grow (same if we add padding). the below will add them to the inside of my element and shrink the content inside of it, so we are in control of the width and height of our element*/
 html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
 
-/* every  element on this page inherits the borderbox from our html = it´s only gonna grow if we say so*/
 *,
 *:before,
 *:after {
@@ -251,9 +246,7 @@ html {
           box-sizing: inherit;
 }
 
-/* collection of css properties that both to make visible and invisiblehidden content readable, as well as contentto assistive technology */
-.sr-only,
-.sr-only:not(:focus):not(:active) {
+.sr-only {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -445,7 +438,7 @@ footer {
 }
 
 .knowMore {
-  background-color: rgb(53, 51, 51);
+  background-color: rgb(17, 16, 16);
   color: #fff;
   padding-top: 100px;
   padding-bottom: 100px;
@@ -495,44 +488,52 @@ footer {
           justify-content: space-between;
 }
 .locationsFlexContainer .locationsContainer {
-  width: 45%;
+  max-width: 45%;
   padding-bottom: 70px;
   position: relative;
 }
 .locationsFlexContainer .locationsContainer h3 {
   margin-bottom: 0px;
 }
+.locationsFlexContainer .locationsContainer p {
+  margin: 10px 0 40px 0;
+}
 .locationsFlexContainer .locationsContainer .newLocations h3 {
   text-align: right;
   margin-top: 15px;
-}
-.locationsFlexContainer .locationsContainer p {
-  margin: 10px 0 40px 0;
 }
 .locationsFlexContainer .locationsContainer .newLocations button {
   margin: 0 1px 0 auto;
   display: block;
   text-align: end;
 }
-.locationsFlexContainer .locationsContainer p.newLocations {
-  padding-left: 30px;
-}
-.locationsFlexContainer .locationsContainer .locationsContainerImageOne {
+.locationsFlexContainer .locationsContainer .newLocations .locationsContainerImageOne {
   border-color: #FF8327;
   border-width: 20px;
   position: absolute;
   margin-top: -40px;
 }
-.locationsFlexContainer .locationsContainer .locationsContainerImageTwo {
+.locationsFlexContainer .locationsContainer .newLocations .locationsContainerImageTwo {
   border-color: #FF8327;
   position: absolute;
 }
 
 .hostAparty {
-  background-color: grey;
-  color: #fff;
+  background-color: rgb(17, 16, 16);
+  color: #FFFFFF;
+  text-align: center;
 }
-
+.hostAparty .hostApartyDiv {
+  padding: 120px 80px 70px;
+}
+.hostAparty h3 {
+  margin: 0px;
+  margin-bottom: 10px;
+}
+.hostAparty p {
+  margin: 0px;
+  margin-bottom: 20px;
+}
 .glassOfbeer {
   background-color: url(../../../assets/banner-image.jpg);
   background-repeat: no-repeat;

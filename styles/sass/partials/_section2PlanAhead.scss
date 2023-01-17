@@ -1,14 +1,14 @@
 .locations {
     background-color: rgb(62, 2, 2);
-        color: #fff;
-        
+    color: #fff;
+
 }
 
 .locationsFlexContainer {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    
+
 
     .locationsContainer {
         max-width: 45%;
@@ -26,8 +26,8 @@
         .newLocations {
 
             h3 {
-            text-align: right;
-            margin-top: 15px;
+                text-align: right;
+                margin-top: 15px;
             }
 
             button {
@@ -37,23 +37,23 @@
             }
 
 
-        .locationsContainerImageOne {
-            // width: 90%;
-            border-color: #FF8327; //sem efeito
-            border-width: 20px; //sem efeito
-            position: absolute;
-            margin-top: -40px;
-            
-        }
+            .locationsContainerImageOne {
+                // width: 90%;
+                border-color: #FF8327; //sem efeito
+                border-width: 20px; //sem efeito
+                position: absolute;
+                margin-top: -40px;
 
-        .locationsContainerImageTwo {
-            // width: 90%;
-            border-color: #FF8327; //sem efeito
-            // border-width: 20px; //sem efeito 
-            position: absolute;
-            // margin-top: 100px;
+            }
 
+            .locationsContainerImageTwo {
+                // width: 90%;
+                border-color: #FF8327; //sem efeito
+                // border-width: 20px; //sem efeito 
+                position: absolute;
+                // margin-top: 100px;
+
+            }
         }
     }
 }
-
