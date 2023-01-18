@@ -146,6 +146,8 @@ html [type=button],
 [type=reset],
 [type=submit] {
   -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
 }
 
 button::-moz-focus-inner,
@@ -200,6 +202,8 @@ textarea {
 
 [type=search] {
   -webkit-appearance: textfield;
+  -moz-appearance: textfield;
+  appearance: textfield;
   outline-offset: -2px;
 }
 
@@ -424,12 +428,15 @@ header .centralHeaderDiv {
   width: 39%;
   margin-right: auto;
   margin-left: auto;
+  z-index: 20;
+  position: relative;
 }
-header img {
+header .secondImage {
   width: 50%;
   position: absolute;
   margin-left: 45%;
-  margin-top: -300px;
+  margin-top: 100px;
+  z-index: 10;
 }
 
 /* FOOTER STYLES */
@@ -534,14 +541,15 @@ footer {
   margin: 0px;
   margin-bottom: 20px;
 }
+
 .glassOfbeer {
-  background-color: url(../../../assets/banner-image.jpg);
+  background-image: url(../../../assets/banner-image.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 /* SECTION 5 STYLES - EVENTS */
 .events {
-  background-color: grey;
-  color: #fff;
+  background-color: #101010;
+  color: #FFFFFF;
 }

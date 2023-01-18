@@ -144,6 +144,9 @@ html [type=button],
 [type=reset],
 [type=submit] {
     -webkit-appearance: button;
+    -moz-appearance: button;
+        appearance: button;
+    // -webkit-appearance: button;
     // -moz-default-appearance: button;
 }
 
@@ -197,8 +200,11 @@ textarea {
 
 [type=search] {
     -webkit-appearance: textfield;
+        -moz-appearance: textfield;
+        appearance: textfield;
+    // -webkit-appearance: textfield;
     // -moz-default-appearance: textfield;
-    outline-offset: -2px,
+    outline-offset: -2px;
 }
 
 [type=search]::-webkit-search-cancel-button,
