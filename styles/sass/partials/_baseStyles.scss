@@ -8,7 +8,8 @@
     border-style: dashed;
 }
 
-button {
+button,
+.button {
     font-family: 'Tulpen One',
         cursive;
     font-size: 39px;
@@ -16,5 +17,8 @@ button {
     border-color: #BF2603;
     letter-spacing: 1.9px;
     color: #FFFFFF;
+    padding: 5px 50px;
+    text-decoration: none;
+    font-weight: normal;
 }
 

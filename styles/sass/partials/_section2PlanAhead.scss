@@ -3,13 +3,13 @@
     color: #FFFFFF;
 }
 
-.locationsFlexContainer {
+.flexContainer {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 
 
-    .locationsContainer {
+    .container {
         max-width: 45%;
 
         h3 {
@@ -19,6 +19,7 @@
         p {
             margin: 10px 0 40px 0;
         }
+        position: relative;
 
         .newLocations {
 
@@ -27,29 +28,31 @@
                 margin-top: 15px;
             }
 
-            button {
-                margin: 0 1px 0 auto;
-                display: block;
+            .button {
+            
                 text-align: end;
             }
 
 
-            .imageOne {
-                    margin-top: -40px;
-                    box-shadow: 17px 19px 0px -1px rgba(255, 131, 39, 1);
-                    -webkit-box-shadow: 17px 19px 0px -1px rgba(255, 131, 39, 1);
-                    -moz-box-shadow: 17px 19px 0px -1px rgba(255, 131, 39, 1);
+        .imageOne {
+                top: -40px;
+                bottom: 0;
+                box-shadow: 17px 19px 0px -1px rgba(255, 131, 39, 1);
+                -webkit-box-shadow: 17px 19px 0px -1px rgba(255, 131, 39, 1);
+                -moz-box-shadow: 17px 19px 0px -1px rgba(255, 131, 39, 1);
+                width: 90%;
+                position: absolute;
             }
 
-            .planAhead {
-                position: relative;
-                z-index: 10;
-            }
+            // .planAhead {
+            //     position: relative;
+            //     z-index: 10;
+            // }
 
-            .newLocations {
-                position: relative;
-                z-index: 10;
-            }
+            // .newLocations {
+            //     position: relative;
+            //     z-index: 10;
+            // }
 
             .imageTwo {
                 // width: 90%;
