@@ -515,10 +515,12 @@ footer {
   text-align: end;
 }
 .locationsFlexContainer .locationsContainer .newLocations .locationsContainerImageOne {
-  border-color: #FF8327;
-  border-width: 20px;
+  width: 90%;
   position: absolute;
   margin-top: -40px;
+  box-shadow: 17px 19px 0px -1px rgb(255, 131, 39);
+  -webkit-box-shadow: 17px 19px 0px -1px rgb(255, 131, 39);
+  -moz-box-shadow: 17px 19px 0px -1px rgb(255, 131, 39);
 }
 .locationsFlexContainer .locationsContainer .newLocations .locationsContainerImageTwo {
   border-color: #FF8327;
@@ -550,6 +552,35 @@ footer {
 
 /* SECTION 5 STYLES - EVENTS */
 .events {
-  background-color: #101010;
+  background-color: #111010;
   color: #FFFFFF;
+}
+.events img {
+  box-shadow: -20px 19px 0px -1px rgb(255, 131, 39);
+  -webkit-box-shadow: -20px 19px 0px -1px rgb(255, 131, 39);
+  -moz-box-shadow: -20px 19px 0px -1px rgb(255, 131, 39);
+}
+.events .flexContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 130px 0 120px 0;
+}
+.events .flexImage {
+  width: 35%;
+  margin-left: 20px;
+}
+.events .flexText {
+  width: 65%;
+}
+.events .flexText h3 {
+  margin: 0 0 10px 0;
+  color: rgb(255, 131, 39);
+}
+.events .flexText p {
+  margin: 0;
+  margin: 0 0 30px 0;
 }

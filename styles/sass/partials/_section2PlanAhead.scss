@@ -38,11 +38,12 @@
 
 
             .locationsContainerImageOne {
-                // width: 90%;
-                border-color: #FF8327; //sem efeito
-                border-width: 20px; //sem efeito
+                width: 90%;
                 position: absolute;
                 margin-top: -40px;
+                box-shadow: 17px 19px 0px -1px rgba(255, 131, 39, 1);
+                    -webkit-box-shadow: 17px 19px 0px -1px rgba(255, 131, 39, 1);
+                    -moz-box-shadow: 17px 19px 0px -1px rgba(255, 131, 39, 1); // this style did not apply (it´s not being imported to style.css, but I pasted manually and save, and still it wouldn´t work
 
             }
 
