@@ -1,7 +1,6 @@
 .locations {
     background-color: rgb(62, 2, 2);
-    color: #fff;
-
+    color: #FFFFFF;
 }
 
 .locationsFlexContainer {
@@ -12,8 +11,6 @@
 
     .locationsContainer {
         max-width: 45%;
-        padding-bottom: 70px;
-        position: relative;
 
         h3 {
             margin-bottom: 0px;
@@ -37,21 +34,29 @@
             }
 
 
-            .locationsContainerImageOne {
-                width: 90%;
-                position: absolute;
-                margin-top: -40px;
-                box-shadow: 17px 19px 0px -1px rgba(255, 131, 39, 1);
+            .imageOne {
+                    margin-top: -40px;
+                    box-shadow: 17px 19px 0px -1px rgba(255, 131, 39, 1);
                     -webkit-box-shadow: 17px 19px 0px -1px rgba(255, 131, 39, 1);
-                    -moz-box-shadow: 17px 19px 0px -1px rgba(255, 131, 39, 1); // this style did not apply (it´s not being imported to style.css, but I pasted manually and save, and still it wouldn´t work
-
+                    -moz-box-shadow: 17px 19px 0px -1px rgba(255, 131, 39, 1);
             }
 
-            .locationsContainerImageTwo {
+            .planAhead {
+                position: relative;
+                z-index: 10;
+            }
+
+            .newLocations {
+                position: relative;
+                z-index: 10;
+            }
+
+            .imageTwo {
                 // width: 90%;
-                border-color: #FF8327; //sem efeito
-                // border-width: 20px; //sem efeito 
-                position: absolute;
+                box-shadow: -20px 19px 0px -1px rgba(255, 131, 39, 1);
+                    -webkit-box-shadow: -20px 19px 0px -1px rgba(255, 131, 39, 1);
+                    -moz-box-shadow: -20px 19px 0px -1px rgba(255, 131, 39, 1); //sem efeito
+                // position: absolute;
                 // margin-top: 100px;
 
             }

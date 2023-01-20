@@ -443,45 +443,75 @@ header .secondImage {
 footer {
   background-color: rgb(62, 2, 2);
 }
+footer ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0;
+  margin: 100px 0;
+}
+footer ul img {
+  width: 90%;
+}
+footer h4 {
+  background-color: #111010;
+  margin: 0;
+}
 
-.knowMore {
+.about {
   background-color: rgb(17, 16, 16);
   color: #fff;
   padding-top: 100px;
   padding-bottom: 100px;
 }
 
-.flexKnowMore {
+.flexContainers {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  padding: 100px 0 70px 0;
 }
-
-.flexKnowMoreContainer {
+.flexContainers .container {
   width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-bottom: 60px;
 }
-.flexKnowMoreContainer div {
-  width: 550px;
-  margin-left: 40px;
+.flexContainers .container .icons {
+  width: 10%;
 }
-.flexKnowMoreContainer ::before {
-  content: "";
-  width: 10px;
-  height: 10px;
-  background-color: peru;
+.flexContainers .container .icons .fa-sharp,
+.flexContainers .container .icons .fa-solid {
+  font-size: 25px;
+  color: #FFFFFF;
+  background-color: #BF2303;
+  border-radius: 50%;
+  padding: 10px;
 }
-.flexKnowMoreContainer h3 {
-  margin-bottom: 0;
+.flexContainers .container .containerText {
+  width: 90%;
+  margin-left: 10px;
 }
-.flexKnowMoreContainer p {
-  margin-top: 10px;
+.flexContainers .container .containerText h3 {
+  margin: 0px;
+}
+.flexContainers .container .containerText p {
+  margin: 0px;
 }
 
 .locations {
   background-color: rgb(62, 2, 2);
-  color: #fff;
+  color: #FFFFFF;
 }
 
 .locationsFlexContainer {
@@ -496,8 +526,6 @@ footer {
 }
 .locationsFlexContainer .locationsContainer {
   max-width: 45%;
-  padding-bottom: 70px;
-  position: relative;
 }
 .locationsFlexContainer .locationsContainer h3 {
   margin-bottom: 0px;
@@ -514,17 +542,24 @@ footer {
   display: block;
   text-align: end;
 }
-.locationsFlexContainer .locationsContainer .newLocations .locationsContainerImageOne {
-  width: 90%;
-  position: absolute;
+.locationsFlexContainer .locationsContainer .newLocations .imageOne {
   margin-top: -40px;
   box-shadow: 17px 19px 0px -1px rgb(255, 131, 39);
   -webkit-box-shadow: 17px 19px 0px -1px rgb(255, 131, 39);
   -moz-box-shadow: 17px 19px 0px -1px rgb(255, 131, 39);
 }
-.locationsFlexContainer .locationsContainer .newLocations .locationsContainerImageTwo {
-  border-color: #FF8327;
-  position: absolute;
+.locationsFlexContainer .locationsContainer .newLocations .planAhead {
+  position: relative;
+  z-index: 10;
+}
+.locationsFlexContainer .locationsContainer .newLocations .newLocations {
+  position: relative;
+  z-index: 10;
+}
+.locationsFlexContainer .locationsContainer .newLocations .imageTwo {
+  box-shadow: -20px 19px 0px -1px rgb(255, 131, 39);
+  -webkit-box-shadow: -20px 19px 0px -1px rgb(255, 131, 39);
+  -moz-box-shadow: -20px 19px 0px -1px rgb(255, 131, 39);
 }
 
 .hostAparty {
