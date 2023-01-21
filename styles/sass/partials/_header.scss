@@ -79,3 +79,46 @@ header {
         z-index: 10; 
     }
 }
+
+// CONTACT PAGE HEADER
+
+.contactHeader {
+    background-image: url(../assets/contact-header-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+
+    nav {
+        padding-top: 1px;
+    }
+
+    ul {
+        display: flex;
+        list-style: none;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+
+    li a {
+        line-height: 29px;
+        letter-spacing: 1.9px;
+        margin: 0 40px;
+        text-decoration: none;
+    }
+
+    .logoAnchor {
+        font-family: 'Tulpen One',
+            cursive;
+        line-height: 58px;
+        letter-spacing: 2.2px;
+        font-size: 72px; //this wasn´t give in the styles, I tried to guess based on the given layout
+    }
+
+    .contactAnchor {
+        color: #FF8327;
+    }
+h2 {
+        margin: 0;
+    }
+}

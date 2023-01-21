@@ -442,6 +442,47 @@ header .secondImage {
   z-index: 10;
 }
 
+.contactHeader {
+  background-image: url(../assets/contact-header-1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 70vh;
+}
+.contactHeader nav {
+  padding-top: 1px;
+}
+.contactHeader ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.contactHeader li a {
+  line-height: 29px;
+  letter-spacing: 1.9px;
+  margin: 0 40px;
+  text-decoration: none;
+}
+.contactHeader .logoAnchor {
+  font-family: "Tulpen One", cursive;
+  line-height: 58px;
+  letter-spacing: 2.2px;
+  font-size: 72px;
+}
+.contactHeader .contactAnchor {
+  color: #FF8327;
+}
+.contactHeader h2 {
+  margin: 0;
+}
+
 /* FOOTER STYLES */
 footer {
   background-color: rgb(62, 2, 2);
@@ -545,13 +586,12 @@ footer h4 {
   text-align: end;
 }
 .flexContainer .container .newLocations .imageOne {
-  top: -40px;
-  bottom: 0;
+  width: 35%;
+  margin-top: -40px;
   box-shadow: 17px 19px 0px -1px rgb(255, 131, 39);
   -webkit-box-shadow: 17px 19px 0px -1px rgb(255, 131, 39);
   -moz-box-shadow: 17px 19px 0px -1px rgb(255, 131, 39);
   width: 90%;
-  position: absolute;
 }
 .flexContainer .container .newLocations .imageTwo {
   box-shadow: -20px 19px 0px -1px rgb(255, 131, 39);
@@ -587,11 +627,6 @@ footer h4 {
   background-color: #111010;
   color: #FFFFFF;
 }
-.events img {
-  box-shadow: -20px 19px 0px -1px rgb(255, 131, 39);
-  -webkit-box-shadow: -20px 19px 0px -1px rgb(255, 131, 39);
-  -moz-box-shadow: -20px 19px 0px -1px rgb(255, 131, 39);
-}
 .events .flexContainer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -604,6 +639,11 @@ footer h4 {
 .events .flexImage {
   width: 35%;
   margin-left: 20px;
+}
+.events .flexImage img {
+  box-shadow: -20px 19px 0px -1px rgb(255, 131, 39);
+  -webkit-box-shadow: -20px 19px 0px -1px rgb(255, 131, 39);
+  -moz-box-shadow: -20px 19px 0px -1px rgb(255, 131, 39);
 }
 .events .flexText {
   width: 63%;

@@ -35,33 +35,20 @@
 
 
         .imageOne {
-                top: -40px;
-                bottom: 0;
+                width: 35%;
+                margin-top: -40px;
                 box-shadow: 17px 19px 0px -1px rgba(255, 131, 39, 1);
                 -webkit-box-shadow: 17px 19px 0px -1px rgba(255, 131, 39, 1);
                 -moz-box-shadow: 17px 19px 0px -1px rgba(255, 131, 39, 1);
                 width: 90%;
-                position: absolute;
+                // position: absolute;
             }
-
-            // .planAhead {
-            //     position: relative;
-            //     z-index: 10;
-            // }
-
-            // .newLocations {
-            //     position: relative;
-            //     z-index: 10;
-            // }
 
             .imageTwo {
                 // width: 90%;
                 box-shadow: -20px 19px 0px -1px rgba(255, 131, 39, 1);
                     -webkit-box-shadow: -20px 19px 0px -1px rgba(255, 131, 39, 1);
-                    -moz-box-shadow: -20px 19px 0px -1px rgba(255, 131, 39, 1); //sem efeito
-                // position: absolute;
-                // margin-top: 100px;
-
+                    -moz-box-shadow: -20px 19px 0px -1px rgba(255, 131, 39, 1); 
             }
         }
     }
