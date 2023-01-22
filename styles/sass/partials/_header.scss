@@ -118,7 +118,15 @@ header {
     .contactAnchor {
         color: #FF8327;
     }
-h2 {
-        margin: 0;
+
+    .getInTouch {
+        margin: 100px 0 0 30px;
+        padding: 0;
     }
+
+    h2 {
+            margin: 0;
+            padding: 0;
+            text-align: left;
+        }    
 }

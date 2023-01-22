@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact page</title>
+    <title>Blog page</title>
     <!-- LINK TO FONT TULPEN ONE REGULAR -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,9 +15,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Chathura:wght@400;700&display=swap" rel="stylesheet">
-
-    <!-- link to font awsome - icons - library -->
-    <script src="https://kit.fontawesome.com/6e60d1847d.js" crossorigin="anonymous"></script>
 
     <!-- LINK TO STYLESHEET -->
     <link rel="stylesheet" href="styles/styles.css">
@@ -43,55 +40,78 @@
             <!-- nav big title -->
             <div class="leftHeaderDiv">
                 <div class="getInTouch">
-                    <h2>Get in touch</h2>
+                    <h2>Blog</h2>
                 </div><!-- end of .bigTitleDiv -->
             </div><!-- end of .leftHeaderDiv -->
         </div><!-- end of .wrapper -->
     </header>
 
-    <section class="contactMain">
+    <section class="blogtMain">
         <div class="wrapper">
             <div class="twoColumns">
 
                 <div class="leftColumn">
-                    <div class="icons">
-                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
-                        <!-- include font awesome icons -->
-                    </div><!-- end of .icons -->
+                    <div class="imageAndText">
+                
+                        <div class="image">
+                            <img src="assets/sidebar-image.jpg" alt="Hand holding a glass almost filled with beer while filling it all the way up with beer from a tap inside a bar"><!-- end of .image -->
 
-                    <div class="text>">
-                        <p>info@email.com</p>
-                        <p>123 - 456 - 7890
-                        123 Queen Street West, Unit
-                        10
-                        Toronto, Ontario
-                        M5V2D5
-                        </p>
-                    </div><!-- end of .text -->
+                        <div class="text">
+                            <div class="ourMission">
+                                <h3>Our mission</h3>
+                                <p>Nam dapibus nisi vitae elit fringilla rutrum. Aenean sollicitudin, erat a elementum.</p>
+                                <p class="orange">Find out more</p>
+                            </div><!-- end of .ourMission -->
+
+                            <div class="recentPosts">
+                                <h3>Recent Posts</h3>
+                                <ul>
+                                    <p>Donec facilisis tortor ut</p>
+                                    <p>Augue lacinia at viverra</p>
+                                    <p>Semper sed sapien metus</p>
+                                    <p>Scelerisque nec pharetra id</p>
+                                </ul>
+                            </div><!-- end of .recentPosts -->
+                        </div><!-- end of .text -->
+
+                    </div><!-- end of .imageAndText -->   
                 </div><!-- end of .leftColumn -->
 
                 <div class="rightColumn">
+
+                    <div class="menuImg">
+                        <img src="assets/post-image.jpg">
+                    </div><!-- end of .menuImg -->
+
+                    <div class="newMenu">
+                        <h3>New Menu!</h3>
+                        <p class="orangeSubtitle">Monday January 30, 2019 by Saron</p>
+                        <p>Curabitur lobortis id lorem id </p>
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                    </div><!-- end of .newMenu -->
+
                     <div class="divForm">
                         <form>
                             <form action="" class="contactForm" name="contactForm">
                                 <div clas="nameAndEmail">
                                     <label for="name" class="sr-only">Name</label>
                                     <input type="text" id="name" placeholder="Name">
-                                
+
                                     <label for="email" class="sr-only">Email</label>
                                     <input type="email" id="email" placeholder="Email">
                                 </div>
-                            
+
                                 <label for="message" class="sr-only">Message</label>
-                                <textarea name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
-                            
+                                <textarea name="message" id="message" cols="30" rows="10"
+                                    placeholder="Message"></textarea>
+
                                 <button type="submit">Submit</button>
-                        </form>
+                            </form>
                     </div><!-- end of .divForm> -->
                 </div><!-- end of .rightColumn -->
+
             </div><!-- end of .twoColumns -->
         </div><!-- end of .wrapper -->
     </section>
