@@ -489,6 +489,53 @@ header .secondImage {
   text-align: left;
 }
 
+.blogHeader {
+  background-image: url(../assets/blog-header-1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 70vh;
+}
+.blogHeader nav {
+  padding-top: 1px;
+}
+.blogHeader ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.blogHeader li a {
+  line-height: 29px;
+  letter-spacing: 1.9px;
+  margin: 0 40px;
+  text-decoration: none;
+}
+.blogHeader .logoAnchor {
+  font-family: "Tulpen One", cursive;
+  line-height: 58px;
+  letter-spacing: 2.2px;
+  font-size: 72px;
+}
+.blogHeader .blogAnchor {
+  color: #FF8327;
+}
+.blogHeader .blog {
+  margin: 100px 0 0 30px;
+  padding: 0;
+}
+.blogHeader h2 {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
 /* FOOTER STYLES */
 footer {
   background-color: rgb(62, 2, 2);
@@ -718,4 +765,110 @@ footer h4 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.blogMain {
+  background-color: #111010;
+}
+.blogMain .twoColumns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 120px;
+  padding-bottom: 100px;
+}
+.blogMain .twoColumns .leftColumn {
+  width: 40%;
+}
+.blogMain .twoColumns .leftColumn .imageAndText {
+  background-color: #220303;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  width: 80%;
+  padding: 0 30px px 30px;
+}
+.blogMain .twoColumns .leftColumn .imageAndText .image {
+  margin: -30px 0 0 -95px;
+}
+.blogMain .twoColumns .leftColumn .imageAndText .text h3, .blogMain .twoColumns .leftColumn .imageAndText .text p {
+  margin: 0 0;
+  padding: 0 30px;
+}
+.blogMain .twoColumns .leftColumn .imageAndText .text .ourMission a {
+  color: #FF8327;
+  text-decoration: none;
+  padding: 0 30px;
+}
+.blogMain .twoColumns .leftColumn .imageAndText .text .ourMission h3 {
+  margin: 15px 0 5px;
+}
+.blogMain .twoColumns .leftColumn .imageAndText .text .recentPosts {
+  padding-bottom: 20px;
+}
+.blogMain .twoColumns .leftColumn .imageAndText .text .recentPosts h3 {
+  margin-top: 20px;
+}
+.blogMain .twoColumns .leftColumn .imageAndText .text .recentPosts ul li {
+  color: #FF8327;
+}
+.blogMain .twoColumns .rightColumn {
+  width: 60%;
+}
+.blogMain .twoColumns .rightColumn .rightColumnContent {
+  margin-top: -250px;
+}
+.blogMain .twoColumns .rightColumn .rightColumnContent .imageAndNewMenu .menuImg {
+  box-shadow: -20px 20px 0px rgb(255, 131, 39);
+  -webkit-box-shadow: -20px 20px 0px rgb(255, 131, 39);
+  -moz-box-shadow: -20px 20px 0px rgb(255, 131, 39);
+  margin-right: -70px;
+}
+.blogMain .twoColumns .rightColumn .rightColumnContent .imageAndNewMenu .menuImg .newMenu {
+  background-color: purple;
+  border-bottom-width: 3px;
+  border-bottom-color: #FF8327;
+  border-bottom-style: solid;
+  border-left-width: 3px;
+  border-left-color: #FF8327;
+  border-left-style: solid;
+  margin-left: -13px;
+  margin-top: 13px;
+  padding: 40px 60px 60px 80px;
+}
+.blogMain .twoColumns .rightColumn .rightColumnContent .imageAndNewMenu .menuImg .newMenu h3, .blogMain .twoColumns .rightColumn .rightColumnContent .imageAndNewMenu .menuImg .newMenu p {
+  margin: 20px 0;
+  padding: 0;
+}
+.blogMain .twoColumns .rightColumn .rightColumnContent .imageAndNewMenu .menuImg .newMenu p.orangeSubtitle {
+  margin: 0;
+  color: #FF8327;
+}
+.blogMain .twoColumns .rightColumn .rightColumnContent .imageAndNewMenu .comments .post {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.blogMain .twoColumns .rightColumn .rightColumnContent .imageAndNewMenu .comments .post .photo {
+  width: 20%;
+}
+.blogMain .twoColumns .rightColumn .rightColumnContent .imageAndNewMenu .comments .post .text {
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.blogMain .twoColumns .rightColumn .rightColumnContent .imageAndNewMenu .comments .post .text .commentDate {
+  color: rgb(255, 131, 39);
 }
