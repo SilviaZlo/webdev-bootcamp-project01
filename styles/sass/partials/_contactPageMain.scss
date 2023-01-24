@@ -36,23 +36,51 @@
                     -moz-box-shadow: 17px 19px 0px -1px rgba(255, 131, 39, 1);
                 margin-top: -200px;
                 margin-right: -50px;
+
+                
+
+                input, textarea { 
+                    background-color: #220303;
+                    padding: 20px;
+                }
+
+                input {
+                    border: none;
+                    border-bottom: 2px solid #FFFFFF;
+                    width: 45%;
+                    margin-left: 10px;
+                }
+
+                textarea {
+                    border: 2px solid #FFFFFF;
+                    margin: 40px 0;
+                    resize: none; //nao rolou como eu queria, nao ocupou o mesmo espaco horizontal que o botão
+                    width: 100%;
+                }
                 
 
                 form {
                         display: flex;
                         flex-direction: column;
                         padding: 60px;
+                        
+                    }
+
+                    input::placeholder,
+                    textarea::placeholder {
+                        color: #FFFFFF;
+                        font-family: 'Chathura',
+                            sans-serif;
+                        line-height: 29px;
+                        letter-spacing: 1.9px;
                     }
 
                     .nameAndEmail {
-                        display: flex;
-                        // justify-content: space-between;
+                        justify-content: space-between;
+                    }
 
-                        // .sr-only {
-                        //     width: 40%;
-                        // border-bottom: #FFFFFF;
-                        // border-width: 2px;
-                        // background-color: #220303;
+                    .message {
+                        width: 700px;
                     }
             }
         }

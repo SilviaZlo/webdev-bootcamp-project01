@@ -137,45 +137,63 @@
                             } //end of .text
                         } // end of .post
                     } // end of .comments
+
+            .divForm {
+                form {
+                margin-top: -40px;
+                margin-top: -200px;
+                margin-right: -50px;
+
+                input,
+                textarea {
+                    background-color: #111010;
+                    padding: 20px;
+                }
+
+                input {
+                    border: none;
+                    border-bottom: 2px solid rgba(255, 131, 39, 1);
+                    width: 45%;
+                    margin-left: 10px;
+                }
+
+                textarea {
+                    border: 2px solid rgba(255, 131, 39, 1);
+                    margin: 40px 0;
+                    resize: none; //nao rolou como eu queria, nao ocupou o mesmo espaco horizontal que o botão
+                    width: 100%;
+                }
+
+
+                form {
+                    display: flex;
+                    flex-direction: column;
+                    padding: 60px;
+
+                }
+
+                input::placeholder,
+                textarea::placeholder {
+                    color: #FFFFFF;
+                    font-family: 'Chathura',
+                        sans-serif;
+                    line-height: 29px;
+                    letter-spacing: 1.9px;
+                }
+
+                .nameAndEmail {
+                    justify-content: space-between;
+                }
+
+                .message {
+                    width: 700px;
+                }
+                }
+            } // end of .divForm
+
                 } // end of .rightColumnContent
             } //end of .rightColumn
         }// end of .twoColumn
 
         
 }// end of .blogMain
-
-
-    
-
-
-    
-
-//             .divForm {
-//                 background-color: #220303;
-//                 margin-top: -40px;
-//                 box-shadow: 17px 19px 0px -1px rgba(255, 131, 39, 1);
-//                 -webkit-box-shadow: 17px 19px 0px -1px rgba(255, 131, 39, 1);
-//                 -moz-box-shadow: 17px 19px 0px -1px rgba(255, 131, 39, 1);
-//                 margin-top: -200px;
-//                 margin-right: -50px;
-
-
-//                 form {
-//                     display: flex;
-//                     flex-direction: column;
-//                     padding: 60px;
-//                 }
-
-//                 .nameAndEmail {
-//                     display: flex;
-//                     // justify-content: space-between;
-
-//                     // .sr-only {
-//                     //     width: 40%;
-//                     // border-bottom: #FFFFFF;
-//                     // border-width: 2px;
-//                     // background-color: #220303;
-//                 }
-//             }
-//         }
-// }

@@ -313,15 +313,15 @@ h4 {
   letter-spacing: 2.2px;
 }
 
-h4 {
-  text-align: center;
-}
-
-p {
+p, h4 {
   font-size: 39px;
   font-weight: normal;
   line-height: 30px;
   letter-spacing: 1.9px;
+}
+
+h4 {
+  text-align: center;
 }
 
 a,
@@ -751,6 +751,22 @@ footer h4 {
   margin-top: -200px;
   margin-right: -50px;
 }
+.contactMain .twoColumns .rightColumn .divForm input, .contactMain .twoColumns .rightColumn .divForm textarea {
+  background-color: #220303;
+  padding: 20px;
+}
+.contactMain .twoColumns .rightColumn .divForm input {
+  border: none;
+  border-bottom: 2px solid #FFFFFF;
+  width: 45%;
+  margin-left: 10px;
+}
+.contactMain .twoColumns .rightColumn .divForm textarea {
+  border: 2px solid #FFFFFF;
+  margin: 40px 0;
+  resize: none;
+  width: 100%;
+}
 .contactMain .twoColumns .rightColumn .divForm form {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -761,10 +777,44 @@ footer h4 {
           flex-direction: column;
   padding: 60px;
 }
+.contactMain .twoColumns .rightColumn .divForm input::-webkit-input-placeholder, .contactMain .twoColumns .rightColumn .divForm textarea::-webkit-input-placeholder {
+  color: #FFFFFF;
+  font-family: "Chathura", sans-serif;
+  line-height: 29px;
+  letter-spacing: 1.9px;
+}
+.contactMain .twoColumns .rightColumn .divForm input::-moz-placeholder, .contactMain .twoColumns .rightColumn .divForm textarea::-moz-placeholder {
+  color: #FFFFFF;
+  font-family: "Chathura", sans-serif;
+  line-height: 29px;
+  letter-spacing: 1.9px;
+}
+.contactMain .twoColumns .rightColumn .divForm input:-ms-input-placeholder, .contactMain .twoColumns .rightColumn .divForm textarea:-ms-input-placeholder {
+  color: #FFFFFF;
+  font-family: "Chathura", sans-serif;
+  line-height: 29px;
+  letter-spacing: 1.9px;
+}
+.contactMain .twoColumns .rightColumn .divForm input::-ms-input-placeholder, .contactMain .twoColumns .rightColumn .divForm textarea::-ms-input-placeholder {
+  color: #FFFFFF;
+  font-family: "Chathura", sans-serif;
+  line-height: 29px;
+  letter-spacing: 1.9px;
+}
+.contactMain .twoColumns .rightColumn .divForm input::placeholder,
+.contactMain .twoColumns .rightColumn .divForm textarea::placeholder {
+  color: #FFFFFF;
+  font-family: "Chathura", sans-serif;
+  line-height: 29px;
+  letter-spacing: 1.9px;
+}
 .contactMain .twoColumns .rightColumn .divForm .nameAndEmail {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.contactMain .twoColumns .rightColumn .divForm .message {
+  width: 700px;
 }
 
 .blogMain {
@@ -884,4 +934,75 @@ footer h4 {
 }
 .blogMain .twoColumns .rightColumn .rightColumnContent .comments .post .text .commentDate {
   color: rgb(255, 131, 39);
+}
+.blogMain .twoColumns .rightColumn .rightColumnContent .divForm form {
+  margin-top: -40px;
+  margin-top: -200px;
+  margin-right: -50px;
+}
+.blogMain .twoColumns .rightColumn .rightColumnContent .divForm form input,
+.blogMain .twoColumns .rightColumn .rightColumnContent .divForm form textarea {
+  background-color: #111010;
+  padding: 20px;
+}
+.blogMain .twoColumns .rightColumn .rightColumnContent .divForm form input {
+  border: none;
+  border-bottom: 2px solid rgb(255, 131, 39);
+  width: 45%;
+  margin-left: 10px;
+}
+.blogMain .twoColumns .rightColumn .rightColumnContent .divForm form textarea {
+  border: 2px solid rgb(255, 131, 39);
+  margin: 40px 0;
+  resize: none;
+  width: 100%;
+}
+.blogMain .twoColumns .rightColumn .rightColumnContent .divForm form form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 60px;
+}
+.blogMain .twoColumns .rightColumn .rightColumnContent .divForm form input::-webkit-input-placeholder, .blogMain .twoColumns .rightColumn .rightColumnContent .divForm form textarea::-webkit-input-placeholder {
+  color: #FFFFFF;
+  font-family: "Chathura", sans-serif;
+  line-height: 29px;
+  letter-spacing: 1.9px;
+}
+.blogMain .twoColumns .rightColumn .rightColumnContent .divForm form input::-moz-placeholder, .blogMain .twoColumns .rightColumn .rightColumnContent .divForm form textarea::-moz-placeholder {
+  color: #FFFFFF;
+  font-family: "Chathura", sans-serif;
+  line-height: 29px;
+  letter-spacing: 1.9px;
+}
+.blogMain .twoColumns .rightColumn .rightColumnContent .divForm form input:-ms-input-placeholder, .blogMain .twoColumns .rightColumn .rightColumnContent .divForm form textarea:-ms-input-placeholder {
+  color: #FFFFFF;
+  font-family: "Chathura", sans-serif;
+  line-height: 29px;
+  letter-spacing: 1.9px;
+}
+.blogMain .twoColumns .rightColumn .rightColumnContent .divForm form input::-ms-input-placeholder, .blogMain .twoColumns .rightColumn .rightColumnContent .divForm form textarea::-ms-input-placeholder {
+  color: #FFFFFF;
+  font-family: "Chathura", sans-serif;
+  line-height: 29px;
+  letter-spacing: 1.9px;
+}
+.blogMain .twoColumns .rightColumn .rightColumnContent .divForm form input::placeholder,
+.blogMain .twoColumns .rightColumn .rightColumnContent .divForm form textarea::placeholder {
+  color: #FFFFFF;
+  font-family: "Chathura", sans-serif;
+  line-height: 29px;
+  letter-spacing: 1.9px;
+}
+.blogMain .twoColumns .rightColumn .rightColumnContent .divForm form .nameAndEmail {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.blogMain .twoColumns .rightColumn .rightColumnContent .divForm form .message {
+  width: 700px;
 }

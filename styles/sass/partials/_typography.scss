@@ -44,15 +44,15 @@ h4 {
     letter-spacing: 2.2px;
 }
 
-h4 {
-    text-align: center;
-}
-
-p {
+p, h4 {
     font-size: 39px;
     font-weight: normal;
     line-height: 30px;
     letter-spacing: 1.9px;
+}
+
+h4 {
+    text-align: center;
 }
 
 a,
