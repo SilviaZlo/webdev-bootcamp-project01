@@ -1,17 +1,40 @@
 /* ---> TYPOGRAPHY STYLES*/
 
+/* import Tulpen One font */
+@font-face {
+    font-family: 'Tulpen One', cursive;
+    src: url(../fonts/Tulpen_One/TulpenOne-Regular.ttf);
+    font-weight: normal;
+}
+
+/* import Chathura font */
+@font-face {
+    font-family: 'Chathura', sans-serif;
+    src: url(../fonts/Chathura/Chathura-Regular.ttf);
+    font-weight: normal;
+}
+
+/* import Chathura font bold*/
+@font-face {
+    font-family: 'Chathura', sans-serif;
+    src: url(../fonts/Chathura/Chathura-Bold.ttf);
+    font-weight: bold;
+}
+    
+
+
 html {
     font-size: 125%;
 }
 
 body {
-    font-family: 'Tulpen One', cursive;
+    font-family: $bodyFont;
     color: #fff;
     font-size: 1rem;
 }
 
 h1 {
-    font-family: 'Tulpen One', cursive;
+    font-family: $headingFont;
     color: #FF8327;
     font-size: 261.4px;
     text-align: center;
@@ -24,7 +47,7 @@ h4,
 p,
 a,
 nav {
-    font-family: 'Chathura', sans-serif;
+    font-family: $bodyFont;
     font-weight: bold;
     color: #FFFFFF;
 }
@@ -64,8 +87,7 @@ nav {
 }
 
 button {
-    font-family: 'Chathura',
-        sans-serif;
+    font-family: $bodyFont;
     color: #FFFFFF;
 }
 

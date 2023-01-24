@@ -108,15 +108,14 @@ header {
     }
 
     .logoAnchor {
-        font-family: 'Tulpen One',
-            cursive;
+        font-family: $headingFont; //'Tulpen One',
         line-height: 58px;
         letter-spacing: 2.2px;
         font-size: 72px; //this wasn´t give in the styles, I tried to guess based on the given layout
     }
 
     .contactAnchor {
-        color: #FF8327;
+        color: $secondary; //#FF8327;
     }
 
     .getInTouch {
@@ -161,15 +160,14 @@ header {
     }
 
     .logoAnchor {
-        font-family: 'Tulpen One',
-            cursive;
+        font-family: $headingFont;//'Tulpen One';
         line-height: 58px;
         letter-spacing: 2.2px;
         font-size: 72px; //this wasn´t give in the styles, I tried to guess based on the given layout
     }
 
     .blogAnchor {
-        color: #FF8327;
+        color: $secondary; // #FF8327;
     }
 
     .blog {

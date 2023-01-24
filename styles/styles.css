@@ -270,18 +270,36 @@ img {
 }
 
 /* ---> TYPOGRAPHY STYLES*/
+/* import Tulpen One font */
+@font-face {
+  font-family: "Tulpen One", cursive;
+  src: url(../fonts/Tulpen_One/TulpenOne-Regular.ttf);
+  font-weight: normal;
+}
+/* import Chathura font */
+@font-face {
+  font-family: "Chathura", sans-serif;
+  src: url(../fonts/Chathura/Chathura-Regular.ttf);
+  font-weight: normal;
+}
+/* import Chathura font bold*/
+@font-face {
+  font-family: "Chathura", sans-serif;
+  src: url(../fonts/Chathura/Chathura-Bold.ttf);
+  font-weight: bold;
+}
 html {
   font-size: 125%;
 }
 
 body {
-  font-family: "Tulpen One", cursive;
+  font-family: "Chathura";
   color: #fff;
   font-size: 1rem;
 }
 
 h1 {
-  font-family: "Tulpen One", cursive;
+  font-family: "Tulpen One";
   color: #FF8327;
   font-size: 261.4px;
   text-align: center;
@@ -294,7 +312,7 @@ h4,
 p,
 a,
 nav {
-  font-family: "Chathura", sans-serif;
+  font-family: "Chathura";
   font-weight: bold;
   color: #FFFFFF;
 }
@@ -333,7 +351,7 @@ nav {
 }
 
 button {
-  font-family: "Chathura", sans-serif;
+  font-family: "Chathura";
   color: #FFFFFF;
 }
 
@@ -471,7 +489,7 @@ header .secondImage {
   text-decoration: none;
 }
 .contactHeader .logoAnchor {
-  font-family: "Tulpen One", cursive;
+  font-family: "Tulpen One";
   line-height: 58px;
   letter-spacing: 2.2px;
   font-size: 72px;
@@ -518,7 +536,7 @@ header .secondImage {
   text-decoration: none;
 }
 .blogHeader .logoAnchor {
-  font-family: "Tulpen One", cursive;
+  font-family: "Tulpen One";
   line-height: 58px;
   letter-spacing: 2.2px;
   font-size: 72px;
@@ -884,7 +902,7 @@ footer h4 {
 .blogMain .twoColumns .rightColumn .rightColumnContent .imageAndNewMenu .newMenu {
   padding: 30px 60px;
   margin-left: -80px;
-  background-color: purple;
+  background-color: #111010;
   border-bottom-width: 3px;
   border-bottom-color: #FF8327;
   border-bottom-style: solid;
