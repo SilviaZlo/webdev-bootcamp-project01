@@ -575,6 +575,7 @@ footer ul img {
 footer h4 {
   background-color: rgb(56, 54, 54);
   margin: 0;
+  padding: 15px;
 }
 
 .about {
@@ -622,6 +623,10 @@ footer h4 {
 }
 .flexContainers .containerText p {
   margin: 0px;
+}
+.flexContainers .containerText a {
+  text-decoration: none;
+  text-align: left;
 }
 
 .locations {
@@ -981,32 +986,32 @@ footer h4 {
   padding: 60px;
 }
 .blogMain .twoColumns .rightColumn .rightColumnContent .divForm form input::-webkit-input-placeholder, .blogMain .twoColumns .rightColumn .rightColumnContent .divForm form textarea::-webkit-input-placeholder {
-  color: #111010;
+  color: #FFFFFF;
   font-family: "Chathura";
   line-height: 29px;
   letter-spacing: 1.9px;
 }
 .blogMain .twoColumns .rightColumn .rightColumnContent .divForm form input::-moz-placeholder, .blogMain .twoColumns .rightColumn .rightColumnContent .divForm form textarea::-moz-placeholder {
-  color: #111010;
+  color: #FFFFFF;
   font-family: "Chathura";
   line-height: 29px;
   letter-spacing: 1.9px;
 }
 .blogMain .twoColumns .rightColumn .rightColumnContent .divForm form input:-ms-input-placeholder, .blogMain .twoColumns .rightColumn .rightColumnContent .divForm form textarea:-ms-input-placeholder {
-  color: #111010;
+  color: #FFFFFF;
   font-family: "Chathura";
   line-height: 29px;
   letter-spacing: 1.9px;
 }
 .blogMain .twoColumns .rightColumn .rightColumnContent .divForm form input::-ms-input-placeholder, .blogMain .twoColumns .rightColumn .rightColumnContent .divForm form textarea::-ms-input-placeholder {
-  color: #111010;
+  color: #FFFFFF;
   font-family: "Chathura";
   line-height: 29px;
   letter-spacing: 1.9px;
 }
 .blogMain .twoColumns .rightColumn .rightColumnContent .divForm form input::placeholder,
 .blogMain .twoColumns .rightColumn .rightColumnContent .divForm form textarea::placeholder {
-  color: #111010;
+  color: #FFFFFF;
   font-family: "Chathura";
   line-height: 29px;
   letter-spacing: 1.9px;
