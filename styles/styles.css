@@ -825,13 +825,19 @@ footer h4 {
 .blogMain .twoColumns .rightColumn .rightColumnContent {
   margin-top: -250px;
 }
+.blogMain .twoColumns .rightColumn .rightColumnContent .imageAndNewMenu {
+  padding: 40px 60px 60px 80px;
+  margin-right: -130px;
+}
 .blogMain .twoColumns .rightColumn .rightColumnContent .imageAndNewMenu .menuImg {
   box-shadow: -20px 20px 0px rgb(255, 131, 39);
   -webkit-box-shadow: -20px 20px 0px rgb(255, 131, 39);
   -moz-box-shadow: -20px 20px 0px rgb(255, 131, 39);
-  margin-right: -70px;
+  margin-left: -60px;
 }
-.blogMain .twoColumns .rightColumn .rightColumnContent .imageAndNewMenu .menuImg .newMenu {
+.blogMain .twoColumns .rightColumn .rightColumnContent .imageAndNewMenu .newMenu {
+  padding: 30px 60px;
+  margin-left: -80px;
   background-color: purple;
   border-bottom-width: 3px;
   border-bottom-color: #FF8327;
@@ -839,28 +845,35 @@ footer h4 {
   border-left-width: 3px;
   border-left-color: #FF8327;
   border-left-style: solid;
-  margin-left: -13px;
   margin-top: 13px;
-  padding: 40px 60px 60px 80px;
 }
-.blogMain .twoColumns .rightColumn .rightColumnContent .imageAndNewMenu .menuImg .newMenu h3, .blogMain .twoColumns .rightColumn .rightColumnContent .imageAndNewMenu .menuImg .newMenu p {
+.blogMain .twoColumns .rightColumn .rightColumnContent .imageAndNewMenu .newMenu h3, .blogMain .twoColumns .rightColumn .rightColumnContent .imageAndNewMenu .newMenu p {
   margin: 20px 0;
   padding: 0;
 }
-.blogMain .twoColumns .rightColumn .rightColumnContent .imageAndNewMenu .menuImg .newMenu p.orangeSubtitle {
+.blogMain .twoColumns .rightColumn .rightColumnContent .imageAndNewMenu .newMenu p.orangeSubtitle {
   margin: 0;
   color: #FF8327;
 }
-.blogMain .twoColumns .rightColumn .rightColumnContent .imageAndNewMenu .comments .post {
+.blogMain .twoColumns .rightColumn .rightColumnContent .comments {
+  padding-left: 60px;
+}
+.blogMain .twoColumns .rightColumn .rightColumnContent .comments h3, .blogMain .twoColumns .rightColumn .rightColumnContent .comments p {
+  margin: 0;
+  padding: 0;
+}
+.blogMain .twoColumns .rightColumn .rightColumnContent .comments .post {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding: 40px 0;
 }
-.blogMain .twoColumns .rightColumn .rightColumnContent .imageAndNewMenu .comments .post .photo {
-  width: 20%;
+.blogMain .twoColumns .rightColumn .rightColumnContent .comments .post .photo {
+  width: 100px;
+  padding: 10px 20px 0 0;
 }
-.blogMain .twoColumns .rightColumn .rightColumnContent .imageAndNewMenu .comments .post .text {
-  width: 80%;
+.blogMain .twoColumns .rightColumn .rightColumnContent .comments .post .text {
+  width: 800px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -869,6 +882,6 @@ footer h4 {
       -ms-flex-direction: column;
           flex-direction: column;
 }
-.blogMain .twoColumns .rightColumn .rightColumnContent .imageAndNewMenu .comments .post .text .commentDate {
+.blogMain .twoColumns .rightColumn .rightColumnContent .comments .post .text .commentDate {
   color: rgb(255, 131, 39);
 }
