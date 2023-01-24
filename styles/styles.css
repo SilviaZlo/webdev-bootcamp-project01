@@ -764,7 +764,6 @@ footer h4 {
 .contactMain .twoColumns .rightColumn .divForm textarea {
   border: 2px solid #FFFFFF;
   margin: 40px 0;
-  resize: none;
   width: 100%;
 }
 .contactMain .twoColumns .rightColumn .divForm form {
@@ -812,9 +811,6 @@ footer h4 {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-}
-.contactMain .twoColumns .rightColumn .divForm .message {
-  width: 700px;
 }
 
 .blogMain {
@@ -935,11 +931,6 @@ footer h4 {
 .blogMain .twoColumns .rightColumn .rightColumnContent .comments .post .text .commentDate {
   color: rgb(255, 131, 39);
 }
-.blogMain .twoColumns .rightColumn .rightColumnContent .divForm form {
-  margin-top: -40px;
-  margin-top: -200px;
-  margin-right: -50px;
-}
 .blogMain .twoColumns .rightColumn .rightColumnContent .divForm form input,
 .blogMain .twoColumns .rightColumn .rightColumnContent .divForm form textarea {
   background-color: #111010;
@@ -954,7 +945,6 @@ footer h4 {
 .blogMain .twoColumns .rightColumn .rightColumnContent .divForm form textarea {
   border: 2px solid rgb(255, 131, 39);
   margin: 40px 0;
-  resize: none;
   width: 100%;
 }
 .blogMain .twoColumns .rightColumn .rightColumnContent .divForm form form {
@@ -1003,6 +993,6 @@ footer h4 {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-.blogMain .twoColumns .rightColumn .rightColumnContent .divForm form .message {
-  width: 700px;
+.blogMain .twoColumns .rightColumn .rightColumnContent .divForm form button {
+  width: 100%;
 }

@@ -54,7 +54,6 @@
                 textarea {
                     border: 2px solid #FFFFFF;
                     margin: 40px 0;
-                    resize: none; //nao rolou como eu queria, nao ocupou o mesmo espaco horizontal que o botão
                     width: 100%;
                 }
                 
@@ -79,9 +78,9 @@
                         justify-content: space-between;
                     }
 
-                    .message {
-                        width: 700px;
-                    }
+                    // .message {
+                    //     // width: 700px;
+                    // }
             }
         }
     }
