@@ -1,5 +1,5 @@
 .blogMain {
-    background-color: #111010;
+    background-color: $primary;// #111010;
 
     .twoColumns {
     display: flex; 
@@ -10,7 +10,7 @@
             width: 40%;
             
             .imageAndText {
-                background-color: #220303;
+                background-color: $tertiary;//#220303;
                 display: flex;
                 flex-direction: column;
                 align-items: flex-start;
@@ -29,7 +29,7 @@
 
                     .ourMission {
                             a {
-                            color:#FF8327;
+                            color: $secondary;//#FF8327;
                             // text-align: left;
                             text-decoration: none;
                             padding: 0 30px;
@@ -49,7 +49,7 @@
 
                         ul {
                             li { 
-                                color: #FF8327;
+                                color: $secondary;// #FF8327;
                                 }
                         }
                     }  // end of .recentPosts
@@ -68,9 +68,9 @@
                     margin-right: -130px;
                     
                     .menuImg {
-                        box-shadow: -20px 20px 0px rgba(255, 131, 39, 1);
-                        -webkit-box-shadow: -20px 20px 0px rgba(255, 131, 39, 1);
-                        -moz-box-shadow: -20px 20px 0px rgba(255, 131, 39, 1);
+                        box-shadow: -20px 20px 0px $secondary;//rgba(255, 131, 39, 1);
+                        -webkit-box-shadow: -20px 20px 0px $secondary;//rgba(255, 131, 39, 1);
+                        -moz-box-shadow: -20px 20px 0px $secondary; //rgba(255, 131, 39, 1);
 
                         margin-left: -60px;
                     } // end of .menuImg
@@ -85,10 +85,10 @@
                         background-color: #111010; //purple; 
 
                         border-bottom-width: 3px;
-                        border-bottom-color:#FF8327;
+                        border-bottom-color: $secondary;//#FF8327;
                         border-bottom-style: solid;
                         border-left-width: 3px;
-                        border-left-color: #FF8327;
+                        border-left-color: $secondary; //#FF8327;
                         border-left-style: solid;
                         
                         // margin-left: -13px;
@@ -101,7 +101,7 @@
 
                         p.orangeSubtitle {
                             margin: 0;
-                            color:#FF8327;
+                            color:$secondary; //#FF8327;
                         }                           
                     } //end of .newMenu
                 } // end of .imageAndNewMenu
@@ -129,7 +129,7 @@
                             flex-direction: column;
 
                             .commentDate {
-                                color:rgba(255, 131, 39, 1);
+                                color:$secondary; //#FF8327;;
                             }
                         } //end of .text
                     } // end of .post
@@ -143,19 +143,19 @@
 
                         input,
                         textarea {
-                            background-color: #111010;
+                            background-color: $primary;// #111010;
                             padding: 20px;
                         }
 
                         input {
                             border: none;
-                            border-bottom: 2px solid rgba(255, 131, 39, 1);
+                            border-bottom: 2px solid $secondary; //#FF8327;rgba(255, 131, 39, 1);
                             width: 45%;
                             margin-left: 10px;
                         }
 
                         textarea {
-                            border: 2px solid rgba(255, 131, 39, 1);
+                            border: 2px solid $secondary; //rgba(255, 131, 39, 1);
                             margin: 40px 0;
                             width: 100%;
                         }
@@ -169,9 +169,8 @@
 
                         input::placeholder,
                         textarea::placeholder {
-                            color: #FFFFFF;
-                            font-family: 'Chathura',
-                                sans-serif;
+                            color: $primary; //#FFFFFF;
+                            font-family: $bodyFont;//'Chathura',
                             line-height: 29px;
                             letter-spacing: 1.9px;
                         }

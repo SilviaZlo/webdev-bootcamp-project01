@@ -22,6 +22,7 @@
         position: relative;
 
         .newLocations {
+            padding: 40px 0 70px;
 
             h3 {
                 text-align: right;
@@ -29,27 +30,29 @@
             }
 
             .button {
-            
-                text-align: end;
+                // text-align: end;
+                margin-left: 345px;
             }
 
+            
+        }
 
         .imageOne {
-                width: 35%;
-                margin-top: -40px;
+                margin-top: -30px;
+                margin-left: -70px;
                 box-shadow: 17px 19px 0px -1px rgba(255, 131, 39, 1);
                 -webkit-box-shadow: 17px 19px 0px -1px rgba(255, 131, 39, 1);
                 -moz-box-shadow: 17px 19px 0px -1px rgba(255, 131, 39, 1);
-                width: 90%;
-                // position: absolute;
+                width: 900px;
+                
             }
 
-            .imageTwo {
-                // width: 90%;
-                box-shadow: -20px 19px 0px -1px rgba(255, 131, 39, 1);
-                    -webkit-box-shadow: -20px 19px 0px -1px rgba(255, 131, 39, 1);
-                    -moz-box-shadow: -20px 19px 0px -1px rgba(255, 131, 39, 1); 
-            }
+        .imageTwo {
+            margin-top: 60px;;
+            margin-left: 70px;
+            box-shadow: -20px 19px 0px -1px rgba(255, 131, 39, 1);
+                -webkit-box-shadow: -20px 19px 0px -1px rgba(255, 131, 39, 1);
+                -moz-box-shadow: -20px 19px 0px -1px rgba(255, 131, 39, 1); 
         }
-    }
-}
+    }// end of .container
+} // end of .flexContainer

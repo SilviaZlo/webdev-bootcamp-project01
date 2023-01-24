@@ -649,22 +649,27 @@ footer h4 {
 .flexContainer .container p {
   margin: 10px 0 40px 0;
 }
+.flexContainer .container .newLocations {
+  padding: 40px 0 70px;
+}
 .flexContainer .container .newLocations h3 {
   text-align: right;
   margin-top: 15px;
 }
 .flexContainer .container .newLocations .button {
-  text-align: end;
+  margin-left: 345px;
 }
-.flexContainer .container .newLocations .imageOne {
-  width: 35%;
-  margin-top: -40px;
+.flexContainer .container .imageOne {
+  margin-top: -30px;
+  margin-left: -70px;
   box-shadow: 17px 19px 0px -1px rgb(255, 131, 39);
   -webkit-box-shadow: 17px 19px 0px -1px rgb(255, 131, 39);
   -moz-box-shadow: 17px 19px 0px -1px rgb(255, 131, 39);
-  width: 90%;
+  width: 900px;
 }
-.flexContainer .container .newLocations .imageTwo {
+.flexContainer .container .imageTwo {
+  margin-top: 60px;
+  margin-left: 70px;
   box-shadow: -20px 19px 0px -1px rgb(255, 131, 39);
   -webkit-box-shadow: -20px 19px 0px -1px rgb(255, 131, 39);
   -moz-box-shadow: -20px 19px 0px -1px rgb(255, 131, 39);
@@ -763,9 +768,9 @@ footer h4 {
 .contactMain .twoColumns .rightColumn .divForm {
   background-color: #220303;
   margin-top: -40px;
-  box-shadow: 17px 19px 0px -1px rgb(255, 131, 39);
-  -webkit-box-shadow: 17px 19px 0px -1px rgb(255, 131, 39);
-  -moz-box-shadow: 17px 19px 0px -1px rgb(255, 131, 39);
+  box-shadow: 17px 19px 0px -1px #FF8327;
+  -webkit-box-shadow: 17px 19px 0px -1px #FF8327;
+  -moz-box-shadow: 17px 19px 0px -1px #FF8327;
   margin-top: -200px;
   margin-right: -50px;
 }
@@ -796,32 +801,32 @@ footer h4 {
 }
 .contactMain .twoColumns .rightColumn .divForm input::-webkit-input-placeholder, .contactMain .twoColumns .rightColumn .divForm textarea::-webkit-input-placeholder {
   color: #FFFFFF;
-  font-family: "Chathura", sans-serif;
+  font-family: "Chathura";
   line-height: 29px;
   letter-spacing: 1.9px;
 }
 .contactMain .twoColumns .rightColumn .divForm input::-moz-placeholder, .contactMain .twoColumns .rightColumn .divForm textarea::-moz-placeholder {
   color: #FFFFFF;
-  font-family: "Chathura", sans-serif;
+  font-family: "Chathura";
   line-height: 29px;
   letter-spacing: 1.9px;
 }
 .contactMain .twoColumns .rightColumn .divForm input:-ms-input-placeholder, .contactMain .twoColumns .rightColumn .divForm textarea:-ms-input-placeholder {
   color: #FFFFFF;
-  font-family: "Chathura", sans-serif;
+  font-family: "Chathura";
   line-height: 29px;
   letter-spacing: 1.9px;
 }
 .contactMain .twoColumns .rightColumn .divForm input::-ms-input-placeholder, .contactMain .twoColumns .rightColumn .divForm textarea::-ms-input-placeholder {
   color: #FFFFFF;
-  font-family: "Chathura", sans-serif;
+  font-family: "Chathura";
   line-height: 29px;
   letter-spacing: 1.9px;
 }
 .contactMain .twoColumns .rightColumn .divForm input::placeholder,
 .contactMain .twoColumns .rightColumn .divForm textarea::placeholder {
   color: #FFFFFF;
-  font-family: "Chathura", sans-serif;
+  font-family: "Chathura";
   line-height: 29px;
   letter-spacing: 1.9px;
 }
@@ -894,9 +899,9 @@ footer h4 {
   margin-right: -130px;
 }
 .blogMain .twoColumns .rightColumn .rightColumnContent .imageAndNewMenu .menuImg {
-  box-shadow: -20px 20px 0px rgb(255, 131, 39);
-  -webkit-box-shadow: -20px 20px 0px rgb(255, 131, 39);
-  -moz-box-shadow: -20px 20px 0px rgb(255, 131, 39);
+  box-shadow: -20px 20px 0px #FF8327;
+  -webkit-box-shadow: -20px 20px 0px #FF8327;
+  -moz-box-shadow: -20px 20px 0px #FF8327;
   margin-left: -60px;
 }
 .blogMain .twoColumns .rightColumn .rightColumnContent .imageAndNewMenu .newMenu {
@@ -947,7 +952,7 @@ footer h4 {
           flex-direction: column;
 }
 .blogMain .twoColumns .rightColumn .rightColumnContent .comments .post .text .commentDate {
-  color: rgb(255, 131, 39);
+  color: #FF8327;
 }
 .blogMain .twoColumns .rightColumn .rightColumnContent .divForm form input,
 .blogMain .twoColumns .rightColumn .rightColumnContent .divForm form textarea {
@@ -956,12 +961,12 @@ footer h4 {
 }
 .blogMain .twoColumns .rightColumn .rightColumnContent .divForm form input {
   border: none;
-  border-bottom: 2px solid rgb(255, 131, 39);
+  border-bottom: 2px solid #FF8327;
   width: 45%;
   margin-left: 10px;
 }
 .blogMain .twoColumns .rightColumn .rightColumnContent .divForm form textarea {
-  border: 2px solid rgb(255, 131, 39);
+  border: 2px solid #FF8327;
   margin: 40px 0;
   width: 100%;
 }
@@ -976,33 +981,33 @@ footer h4 {
   padding: 60px;
 }
 .blogMain .twoColumns .rightColumn .rightColumnContent .divForm form input::-webkit-input-placeholder, .blogMain .twoColumns .rightColumn .rightColumnContent .divForm form textarea::-webkit-input-placeholder {
-  color: #FFFFFF;
-  font-family: "Chathura", sans-serif;
+  color: #111010;
+  font-family: "Chathura";
   line-height: 29px;
   letter-spacing: 1.9px;
 }
 .blogMain .twoColumns .rightColumn .rightColumnContent .divForm form input::-moz-placeholder, .blogMain .twoColumns .rightColumn .rightColumnContent .divForm form textarea::-moz-placeholder {
-  color: #FFFFFF;
-  font-family: "Chathura", sans-serif;
+  color: #111010;
+  font-family: "Chathura";
   line-height: 29px;
   letter-spacing: 1.9px;
 }
 .blogMain .twoColumns .rightColumn .rightColumnContent .divForm form input:-ms-input-placeholder, .blogMain .twoColumns .rightColumn .rightColumnContent .divForm form textarea:-ms-input-placeholder {
-  color: #FFFFFF;
-  font-family: "Chathura", sans-serif;
+  color: #111010;
+  font-family: "Chathura";
   line-height: 29px;
   letter-spacing: 1.9px;
 }
 .blogMain .twoColumns .rightColumn .rightColumnContent .divForm form input::-ms-input-placeholder, .blogMain .twoColumns .rightColumn .rightColumnContent .divForm form textarea::-ms-input-placeholder {
-  color: #FFFFFF;
-  font-family: "Chathura", sans-serif;
+  color: #111010;
+  font-family: "Chathura";
   line-height: 29px;
   letter-spacing: 1.9px;
 }
 .blogMain .twoColumns .rightColumn .rightColumnContent .divForm form input::placeholder,
 .blogMain .twoColumns .rightColumn .rightColumnContent .divForm form textarea::placeholder {
-  color: #FFFFFF;
-  font-family: "Chathura", sans-serif;
+  color: #111010;
+  font-family: "Chathura";
   line-height: 29px;
   letter-spacing: 1.9px;
 }
