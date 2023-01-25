@@ -1316,3 +1316,136 @@ footer h4 {
     margin: 0 auto;
   }
 }
+@media (min-width: 320px) and (max-width: 500px) {
+  header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 25rem;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  header ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  header .logoAnchor {
+    display: none;
+  }
+  header .secondImage {
+    visibility: hidden;
+  }
+  header .centralHeaderDiv {
+    margin: 0 auto;
+    padding: 0;
+  }
+  header .centralHeaderDiv h1 {
+    font-size: 3rem;
+    margin: 2rem auto 1rem;
+    padding: 0;
+    line-height: normal;
+  }
+  header .centralHeaderDiv h2 {
+    font-size: 2rem;
+    line-height: normal;
+    padding-left: 2px;
+  }
+  header .about {
+    padding: 0;
+    width: 100%;
+  }
+  header .about .flexContainers {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  header .about .flexContainers .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+  }
+  header .about .flexContainers .container .icons {
+    margin-left: 25%;
+  }
+  header .locations .flexContainer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  header .locations .flexContainer .container {
+    max-width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  header .locations .flexContainer .container h3 {
+    margin-top: 0.5rem;
+  }
+  header .locations .flexContainer .container img {
+    display: none;
+  }
+  header .locations .flexContainer .container .button {
+    max-width: 10rem;
+    padding: 0.25rem 2.5rem;
+  }
+  header .locations .flexContainer .container .planAhead {
+    text-align: center;
+  }
+  header .locations .flexContainer .container .newLocations .button {
+    -ms-flex-item-align: center;
+        align-self: center;
+  }
+  header .events .flexContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  header .events .flexContainer .flexImage {
+    max-width: 100%;
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+    width: 20%;
+    margin-top: -2.5rem;
+  }
+  header .events .flexContainer .flexText {
+    margin-bottom: -2.5rem;
+  }
+}
