@@ -1,0 +1,134 @@
+// tablets
+@media (max-width: 800px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        height: 550px;
+        align-items: center;
+
+        ul {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        .logoAnchor {
+            display: none;
+        }
+
+        .secondImage {
+            visibility: hidden;
+        }
+
+        .centralHeaderDiv {
+
+            margin: 0 auto;
+            padding: 0;
+            
+            h1 {
+                font-size: 130px;
+                margin: 0;
+                padding: 0;
+                line-height: normal;
+            }
+
+            h2 {
+                font-size: 47px;
+                margin-top: -50px;
+                padding-left: 4px;
+                line-height: normal;
+            }     
+        } // end of .centralHeaderDiv
+    } // end of header
+
+    // section ABOUT
+    .about {
+        padding: 0;
+    
+        .container {
+            display: flex;
+            flex-direction: column;
+            
+            .icons {
+                margin-left: 25%;
+            }
+            
+        }
+    }
+
+    // section PLAN AHEAD
+    .locations {
+        .flexContainer {
+            flex-direction: column;
+
+            .container {
+                max-width: 100%;
+
+                h3 {
+                    margin-top: 0.5rem;
+                }
+
+                img {
+                    max-width:45%;
+                }
+
+
+                .button {
+                    max-width: 10rem;
+                    padding: 0.25rem 2.5rem;
+                }
+
+                .newLocations,
+                .planAhead {
+                    display: flex;
+                    flex-direction: column;
+                }
+
+                .planAhead {
+                    align-items: flex-start;
+                }
+
+                .newLocations {
+                    .button {
+                        align-self: flex-end;
+                    }
+                }
+
+                .imageOne {
+                    align-self: flex-end; //parou de funcionar
+                }
+
+                .imageTwo {
+                    align-self: flex-start;
+                    margin: -2.5rem 0 0 0;
+                }
+            } // end of .container
+        } // end of .flexContainer
+    } // end of .locations
+
+    // SECTION EVENTS - só o flex colum funcionou, de resto, nada.
+    .events{
+        .flexContainer {
+            display: flex;
+            flex-direction: column;
+            // align-items: flex-start; // nao fez diferenca
+            max-width: 100%;// nao fez diferenca
+            padding: 3.2rem 0 3rem 0;
+            
+            .flexImage {
+                max-width: 100%;
+                align-self: flex-end; //sem efeito
+                // margin-right: -20px;
+            }
+
+            .flextext {
+                max-width: 100%; //sem efeito
+                margin-top: 1.5rem;
+            }
+        } // end of header
+    } //end of .events
+} // end of @media (max-width: 800px) - tablets
+
+    
+   
+

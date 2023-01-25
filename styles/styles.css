@@ -301,9 +301,9 @@ body {
 h1 {
   font-family: "Tulpen One";
   color: #FF8327;
-  font-size: 261.4px;
+  font-size: 13.07rem;
   text-align: center;
-  letter-spacing: 2.4px;
+  letter-spacing: 0.12rem;
 }
 
 h2,
@@ -318,24 +318,24 @@ nav {
 }
 
 h2 {
-  font-size: 83.2px;
-  line-height: 94.7px;
-  letter-spacing: 2.6px;
+  font-size: 4.16rem;
+  line-height: 4.7rem;
+  letter-spacing: 0.13rem;
   text-align: center;
 }
 
 h3,
 h4 {
-  font-size: 68px;
-  line-height: 58px;
-  letter-spacing: 2.2px;
+  font-size: 3.4rem;
+  line-height: 2.9rem;
+  letter-spacing: 0.11rem;
 }
 
 p, h4 {
-  font-size: 39px;
+  font-size: 1.95rem;
   font-weight: normal;
-  line-height: 30px;
-  letter-spacing: 1.9px;
+  line-height: 1.5rem;
+  letter-spacing: 0.09rem;
 }
 
 h4 {
@@ -344,10 +344,10 @@ h4 {
 
 a,
 nav {
-  font-size: 38px;
+  font-size: 1.9rem;
   text-align: center;
-  line-height: 29px;
-  letter-spacing: 1.9px;
+  line-height: 1.45rem;
+  letter-spacing: 0.095rem;
 }
 
 button {
@@ -646,7 +646,6 @@ footer h4 {
 }
 .flexContainer .container {
   max-width: 45%;
-  position: relative;
 }
 .flexContainer .container h3 {
   margin-bottom: 0px;
@@ -1023,4 +1022,136 @@ footer h4 {
 }
 .blogMain .twoColumns .rightColumn .rightColumnContent .divForm form button {
   width: 100%;
+}
+
+@media (max-width: 800px) {
+  header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 550px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  header ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  header .logoAnchor {
+    display: none;
+  }
+  header .secondImage {
+    visibility: hidden;
+  }
+  header .centralHeaderDiv {
+    margin: 0 auto;
+    padding: 0;
+  }
+  header .centralHeaderDiv h1 {
+    font-size: 130px;
+    margin: 0;
+    padding: 0;
+    line-height: normal;
+  }
+  header .centralHeaderDiv h2 {
+    font-size: 47px;
+    margin-top: -50px;
+    padding-left: 4px;
+    line-height: normal;
+  }
+  .about {
+    padding: 0;
+  }
+  .about .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .about .container .icons {
+    margin-left: 25%;
+  }
+  .locations .flexContainer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .locations .flexContainer .container {
+    max-width: 100%;
+  }
+  .locations .flexContainer .container h3 {
+    margin-top: 0.5rem;
+  }
+  .locations .flexContainer .container img {
+    max-width: 45%;
+  }
+  .locations .flexContainer .container .button {
+    max-width: 10rem;
+    padding: 0.25rem 2.5rem;
+  }
+  .locations .flexContainer .container .newLocations,
+.locations .flexContainer .container .planAhead {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .locations .flexContainer .container .planAhead {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .locations .flexContainer .container .newLocations .button {
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+  }
+  .locations .flexContainer .container .imageOne {
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+  }
+  .locations .flexContainer .container .imageTwo {
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+    margin: -2.5rem 0 0 0;
+  }
+  .events .flexContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    max-width: 100%;
+    padding: 3.2rem 0 3rem 0;
+  }
+  .events .flexContainer .flexImage {
+    max-width: 100%;
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+  }
+  .events .flexContainer .flextext {
+    max-width: 100%;
+    margin-top: 1.5rem;
+  }
 }
