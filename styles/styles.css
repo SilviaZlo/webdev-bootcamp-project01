@@ -1100,7 +1100,7 @@ footer h4 {
     margin-top: 0.5rem;
   }
   .locations .flexContainer .container img {
-    max-width: 45%;
+    max-width: 35%;
   }
   .locations .flexContainer .container .button {
     max-width: 10rem;
@@ -1126,13 +1126,15 @@ footer h4 {
         align-self: flex-end;
   }
   .locations .flexContainer .container .imageOne {
-    -ms-flex-item-align: end;
-        align-self: flex-end;
+    margin-left: 445px;
+    margin-bottom: -20px;
   }
   .locations .flexContainer .container .imageTwo {
     -ms-flex-item-align: start;
         align-self: flex-start;
     margin: -2.5rem 0 0 0;
+    margin-bottom: 50px;
+    padding-bottom: -20px;
   }
   .events .flexContainer {
     display: -webkit-box;
@@ -1142,16 +1144,15 @@ footer h4 {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    max-width: 100%;
-    padding: 3.2rem 0 3rem 0;
   }
   .events .flexContainer .flexImage {
     max-width: 100%;
     -ms-flex-item-align: end;
         align-self: flex-end;
+    width: 20%;
+    margin-top: -2.5rem;
   }
-  .events .flexContainer .flextext {
-    max-width: 100%;
-    margin-top: 1.5rem;
+  .events .flexContainer .flexText {
+    margin-bottom: -2.5rem;
   }
 }
