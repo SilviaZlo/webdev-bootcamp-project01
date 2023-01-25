@@ -361,9 +361,6 @@ button {
   max-width: 1260px;
   width: 90%;
   margin: 0 auto;
-  border-width: 1px;
-  border-color: aqua;
-  border-style: dashed;
 }
 
 button,
@@ -566,8 +563,7 @@ footer ul {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 0;
-  margin: 100px 0;
+  padding: 6rem 0;
 }
 footer ul img {
   width: 90%;
@@ -661,7 +657,7 @@ footer h4 {
   margin-top: 15px;
 }
 .flexContainer .container .newLocations .button {
-  margin-left: 345px;
+  margin-left: 340px;
 }
 .flexContainer .container .imageOne {
   margin-top: -30px;
@@ -706,6 +702,7 @@ footer h4 {
 .events {
   background-color: #111010;
   color: #FFFFFF;
+  margin-bottom: -1rem;
 }
 .events .flexContainer {
   display: -webkit-box;
